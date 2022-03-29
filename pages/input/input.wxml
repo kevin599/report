@@ -1,0 +1,10 @@
+<h1>登记信息</h1>
+<form bindsubmit='submit'>
+  <view wx:for="{{msg}}" wx:key="_this" class="item">
+    <label for="">{{item.label}}</label>
+    <input name="{{item.name}}" type="text" value="{{item.value}}"></input>
+  </view>
+  <button type="primary" bindtap="loadimg">上传照片</button>
+  <button type="primary" form-type="submit" style="margin: 1rem auto;">Submit</button>
+  <button type="warn" form-type="reset">Reset All</button>
+</form>
