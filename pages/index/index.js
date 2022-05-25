@@ -34,6 +34,17 @@ Page({
       });
     }, 1000);
   },
-
+  backToHome(){
+    const form = JSON.stringify(this.data.msgForm)
+    wx.navigateTo({
+      url: `../home/home?form=${form}`,
+      // url: `../home/home`,
+    }).then(()=>{
+      wx.hideHomeButton()
+      wx.setNavigationBarTitle({
+        title: '嘉应学院网上办事大厅',
+      })
+    })
+  }
 
 })

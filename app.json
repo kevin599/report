@@ -2,6 +2,7 @@
   "pages": [
     "pages/input/input",
     "pages/index/index",
+    "pages/home/home",
     "pages/logs/logs"
   ],
   "window": {

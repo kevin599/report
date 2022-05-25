@@ -1,0 +1,3 @@
+<view class="container">
+  <image src="../image/home2.jpg" class="img" bindtap="backToIndex"></image>
+</view>

@@ -68,9 +68,9 @@ Page({
     that.setData({
       'submitForm': e.detail.value
     })
-    console.log(that.data.submitForm);
+    // console.log(that.data.submitForm);
     const form = JSON.stringify(that.data.submitForm)
-    console.log(form);
+    // console.log(form);
     wx.navigateTo({
       url: `/pages/index/index?form=${form}&img=${that.data.img}`,
     })

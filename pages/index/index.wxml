@@ -22,10 +22,10 @@
       <button class="bt bt2">再次报备</button>
       <button class="bt bt3">刷新</button>
       <button class="bt bt4">返回</button> -->
-      <view class="bt bt1">二维码</view>
+      <!-- <view class="bt bt1">二维码</view> -->
       <view class="bt bt2">再次报备</view>
       <view class="bt bt3">刷新</view>
-      <view class="bt bt4">返回</view>
+      <view class="bt bt4" bindtap="backToHome">返回</view>
       <!-- <image src="../image/zaicibaobei.png" class="bt "></image>
       <image src="../image/zaicibaobei.png" class="bt "></image>
       <image src="../image/shuaxin.png" class="bt "></image>
